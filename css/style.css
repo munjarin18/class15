@@ -1,0 +1,291 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    display: inline-block;
+    text-decoration: none;
+}
+ul{
+    text-decoration: none;
+}
+/* ------NAVBAR------- */
+.menu-bg{
+    position: absolute;
+    width: 100%;
+    z-index: 999;
+}
+.menu-bg ul li a{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 27.24px;
+    color: #474747;
+    padding: 0 30px !important;
+}
+.hire a{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 27.24px;
+    color: #fff;
+    padding: 18px 36px !important;
+    background-color: #FD6E0A;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    margin-left: 51px;
+    transition: 0.5s;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+}
+.hire a:hover{
+    border: 1px solid #FD6E0A transparent;
+    color: #FD6E0A;
+    background-color: #fff;
+}
+.container .tanvir{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 800;
+    font-size: 45px;
+    line-height: 62px;
+    color: #181818;
+}
+.container .tanvir span{
+    color:#FD6E0A;
+} 
+/* nav part end */
+
+/* banner part start */
+#banner{
+    background-color: #FFF8F3;
+    padding-top: 297px;
+    padding-bottom: 184px;
+    position: relative;
+}
+.banner-text h2{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    font-size: 45px;
+    line-height: 62px;
+    color: #474747;
+}
+.banner-text h1{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    font-size: 85px;
+    line-height: 116px;
+    color: #181818;
+}
+.banner-text p{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    color: #757575;
+}
+.sun{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+.man{
+    position: absolute;
+    right: 210px;
+    bottom: 0;
+}
+.man img{
+    width: 130%;
+}
+.link_btn .download{
+    color: #fff;
+    padding: 19px 17px;
+    background-color: #FD6E0A;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 28px;
+    text-align: center;
+    transition: 0.5s;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+    margin-right: 30px;
+}
+.link_btn .download:hover{
+    border: 1px solid #FD6E0A transparent;
+    background-color: #fff;
+    color: #FD6E0A;
+}
+.link_btn .contact{
+    color: #FD6E0A;
+    padding: 19px 24px;
+    background-color: #fff;
+    border: 1px solid #FD6E0A;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 28px;
+    text-align: center;
+    transition: 0.5s;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+}
+.link_btn .contact:hover{
+    color: #fff;
+    background-color: #FD6E0A;
+
+}
+#banner h4{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    font-size: 100px;
+    line-height: 137px;
+    color: rgba(24, 24, 24, 0.15);
+    position: absolute;
+    left: 0;
+    top: 0;
+    writing-mode: vertical-lr;
+    -webkit-writing-mode: vertical-lr;
+    -ms-writing-mode: vertical-lr;
+    transform: rotate(180deg);
+    -webkit-transform: rotate(180deg);
+    -moz-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
+    letter-spacing: 33px;
+}
+/* banner part end */
+/* about part start */
+.about_main{
+    text-align: center;
+    padding: 110px 0;
+    background-color: #FFF8F3; 
+} 
+.about_text h3{
+    font-size: 35px;
+    font-weight: 700;
+    color: #000;
+    font-family: 'Open Sans', sans-serif;
+}
+.about_text p{
+    font-size: 18px;
+    font-weight: 400;
+    color: #757575;
+    font-family: 'Open Sans', sans-serif;
+    line-height: 30px;
+}
+.about_item h4{
+    font-size: 15px;
+    font-weight: 700;
+    color: #757575;
+    font-family: 'Open Sans', sans-serif;
+    line-height: 30px;
+}
+.about_item h3{
+    font-size: 15px;
+    font-weight: 700;
+    color: #474747;
+    font-family: 'Open Sans', sans-serif;
+    line-height: 30px;
+}
+
+/* about part end */
+
+/* what i do part sart */
+    .what_i{
+        text-align: center;
+        padding: 110px 0;
+    }
+    .what_i h3{
+        font-size: 35px;
+        font-weight: 700;
+        color: #000;
+        font-family: 'Open Sans', sans-serif;
+    }
+    .what_i p{
+        font-size: 18px;
+        font-weight: 400;
+        color: #757575;
+        font-family: 'Open Sans', sans-serif;
+        line-height: 30px;
+    }
+    .what_item{
+        box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+        padding: 40px 15px;
+    }
+    .what_item h3{
+        font-size: 20px;
+        font-weight: 700;
+        color: #181818;
+        font-family: 'Open Sans', sans-serif;
+        line-height: 30px;
+    }
+    .what_item p{
+        font-size: 16px;
+        font-weight: 400;
+        color:  #757575;
+        font-family: 'Open Sans', sans-serif;
+        line-height: 28px;
+    }
+/* what i do part end */
+
+/*summary section start  */
+
+  .summary h3{
+    padding: 40px 0;
+    text-align: center;
+    font-size: 35px;
+    font-weight: 700;
+    color: #181818;
+    font-family: 'Open Sans', sans-serif;
+  }
+
+.education h3{
+    color: var(--Dark-02, #474747);
+    font-family: 'Open Sans', sans-serif;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    padding-top: 30px;
+    padding-bottom: 10px;
+   
+}
+.education h4{
+    color: var(--Dark-02, #474747);
+    font-family: 'Open Sans', sans-serif;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 700;
+}
+
+.education p{
+    color: var(--Dark-03, #757575);
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+}
+
+
+
+/*summary section end  */

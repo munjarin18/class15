@@ -1,0 +1,68 @@
+
+@media(max-width:992px){
+    
+    .menu_bg ul li {
+        padding: 20px 0;
+    }
+    .menu_bg ul{
+        text-align: center;
+        background-color: aqua;
+    }
+    .menu_bg button{
+    border: 2px solid orangered;
+   }
+   .menu_bg .navbar-toggler i{
+     color: orangered;
+     font-size: 30px;
+   }
+   .navbar-toggler:focus {
+	text-decoration: none;
+	outline: 0;
+	box-shadow: 0 0 0 transparent !important;
+}
+.menu_bg .one{
+    text-align: center;
+}
+
+#banner h4 {
+	font-size: 60px;
+	 
+}
+#banner {
+	
+	padding-top: 280px;
+	padding-bottom: 125px;
+	
+}
+.banner_text{
+    text-align: center;
+}
+
+
+
+}
+
+@media(max-width:575px){
+   
+}
+@media(min-width:576PX) and (max-width:767px){
+     
+
+    
+}
+@media(min-width:768PX) and (max-width:991px){
+  
+    #banner h4 {
+        font-size: 80px;
+         
+    }
+}
+@media(min-width:992PX) and (max-width:1199px){
+
+}
+@media(min-width:1200PX) and (max-width:1399px){
+
+}
+@media(min-width:1400PX) {
+
+}
